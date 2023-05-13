@@ -20,6 +20,7 @@ GEM
       sinatra (= 3.0.6)
       tilt (~> 2.0)
     tilt (2.1.0)
+    webrick (1.8.1)
 
 PLATFORMS
   x86_64-linux
@@ -27,6 +28,7 @@ PLATFORMS
 DEPENDENCIES
   sinatra
   sinatra-contrib
+  webrick
 
 RUBY VERSION
    ruby 3.1.4p223

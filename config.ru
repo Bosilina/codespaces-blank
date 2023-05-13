@@ -1,6 +1,3 @@
-source 'https://rubygems.org'
+require File.expand_path('voter', File.dirname(__FILE__))
 
-gem 'sinatra'
-gem 'sinatra-contrib'
-gem 'rack'
-
+run Voter
